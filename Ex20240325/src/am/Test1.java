@@ -13,6 +13,16 @@ public class Test1 {
 	public static int Ex1(int a, int b){
 		return a+b;
 	}
+
+	public static void Ex2() {
+		Ex3();
+		System.out.println("World!!");
+	}
+	
+
+	public static void Ex3() {
+		System.out.print("Hello, ");
+	}
 	
 	
 	
@@ -39,7 +49,13 @@ public class Test1 {
 		}
 		cRes = Ex1(c1,c2);
 		System.out.println(c1 + "+" + c2 + "=" + cRes);
+		System.out.println(); //'sysout' [ctrl] + [space]
 		
-	} // 영역 끝
+		
+		Ex2();
+		
+		System.out.println("End of the Program");
+		
+	} // 영역 끝 | main 함수의 끝은 프로그램의 끝이다.
 	
 }
