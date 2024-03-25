@@ -25,7 +25,6 @@ public class Test1 {
 	}
 	
 	
-	
 	public void Ex4() {
 		System.out.println("Hello, Ex4! I mean, World!!");
 	}
