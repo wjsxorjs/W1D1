@@ -1,4 +1,4 @@
-git Init
+git init
 
 git status
 
