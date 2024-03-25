@@ -26,6 +26,12 @@ public class Test1 {
 	
 	
 	
+	public void Ex4() {
+		System.out.println("Hello, Ex4! I mean, World!!");
+	}
+
+	
+	
 	/*
 	 JAVA에서 main함수가 시작하는 부분이다.
 	 (main함수는 JVM에 의해 가장 처음에 자동 호출되는 곳이다.)
@@ -53,6 +59,11 @@ public class Test1 {
 		
 		
 		Ex2();
+		
+		Test1 test = new Test1();
+		
+		test.Ex4();
+		
 		
 		System.out.println("End of the Program");
 		
