@@ -6,8 +6,8 @@ public class Test2 {
 	
 	
 	public static void main(String[] args) {
-		Test1 test = new Test1();
-		test.Ex4();
+//		Test1 test = new Test1();
+//		test.Ex4(); // < 실행된다. 
 		
 		
 		/*
